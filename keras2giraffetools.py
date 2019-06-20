@@ -11,6 +11,7 @@ from docs.structure import PAGES
 
 keras_dir = pathlib.Path(__file__).resolve().parents[1]
 
+TOOLBOX = 'Keras'
 
 ### Copied from .docs.autogen
 def clean_module_name(name):
@@ -21,8 +22,7 @@ def clean_module_name(name):
     return name
 
 
-TOOLBOX = 'Keras'
-### Copied from .docs.autogen and modified
+### Modified from .docs.autogen
 def get_function_signature(function, name):
     wrapped = getattr(function, '_original_function', None)
     if wrapped is None:
@@ -43,6 +43,16 @@ def get_function_signature(function, name):
     sections = [i for i in sections if i] 
 
     ports = []
+    
+    ports.append({
+        'name': 'INPUT',
+        'input': True,
+        'output': False,
+        'visible': True,
+        'editable': True, 
+        'code': []
+    })
+    
     i = 0
     for argument in args:
         ports.append({ 
@@ -84,6 +94,15 @@ def get_function_signature(function, name):
          }]
         })
     
+    ports.append({
+        'name': 'OUTPUT',
+        'input': False,
+        'output': True,
+        'visible': True,
+        'editable': True,
+        'code': []
+    })
+    
     return { 
      'name': name,
      'category': sections[-1],
@@ -99,19 +118,7 @@ def get_function_signature(function, name):
      'ports': ports
     }
 
-### Copied from .docs.autogen
-def post_process_signature(signature):
-    parts = re.split(r'\.(?!\d)', signature)
-    if len(parts) >= 4:
-        if parts[1] == 'layers':
-            signature = 'keras.layers.' + '.'.join(parts[3:])
-        if parts[1] == 'utils':
-            signature = 'keras.utils.' + '.'.join(parts[3:])
-        if parts[1] == 'backend':
-            signature = 'keras.backend.' + '.'.join(parts[3:])
-    return signature
-
-
+    
 ### Copied from .docs.autogen
 def read_page_data(page_data, type):
     assert type in ['classes', 'functions', 'methods']
