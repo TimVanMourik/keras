@@ -1056,10 +1056,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -1110,10 +1107,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -1670,10 +1664,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -1724,10 +1715,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -1998,10 +1986,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2069,10 +2054,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2291,10 +2273,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2362,10 +2341,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2584,11 +2560,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2639,11 +2611,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2862,11 +2830,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3104,10 +3068,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3141,16 +3102,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    [
-                      0,
-                      0
-                    ],
-                    [
-                      0,
-                      0
-                    ]
-                  ],
+                  "default": "((0, 0), (0, 0))",
                   "code": [
                     {
                       "language": "Keras",
@@ -3201,20 +3153,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    [
-                      1,
-                      1
-                    ],
-                    [
-                      1,
-                      1
-                    ],
-                    [
-                      1,
-                      1
-                    ]
-                  ],
+                  "default": "((1, 1), (1, 1), (1, 1))",
                   "code": [
                     {
                       "language": "Keras",
@@ -3299,10 +3238,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
+                  "default": "(2, 2)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3370,11 +3306,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    2,
-                    2,
-                    2
-                  ],
+                  "default": "(2, 2, 2)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3459,10 +3391,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3513,11 +3442,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3658,10 +3583,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
+                  "default": "(2, 2)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3746,11 +3668,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    2,
-                    2,
-                    2
-                  ],
+                  "default": "(2, 2, 2)",
                   "code": [
                     {
                       "language": "Keras",
@@ -3920,10 +3838,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
+                  "default": "(2, 2)",
                   "code": [
                     {
                       "language": "Keras",
@@ -4008,11 +3923,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    2,
-                    2,
-                    2
-                  ],
+                  "default": "(2, 2, 2)",
                   "code": [
                     {
                       "language": "Keras",
@@ -4591,10 +4502,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -6140,10 +6048,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -6194,10 +6099,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -6586,10 +6488,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -6640,10 +6539,7 @@
                   "output": false,
                   "visible": false,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -8705,72 +8601,6 @@
           "name": "noise",
           "nodes": [
             {
-              "name": "GaussianDropout",
-              "category": "noise",
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GaussianDropout",
-                    "import": "from keras.layers import GaussianDropout"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/noise/GaussianDropout",
-              "ports": [
-                {
-                  "name": "rate",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": [
-                    {
-                      "language": "Keras",
-                      "argument": {
-                        "kwarg": false,
-                        "arg": 1
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "GaussianNoise",
-              "category": "noise",
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GaussianNoise",
-                    "import": "from keras.layers import GaussianNoise"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/noise/GaussianNoise",
-              "ports": [
-                {
-                  "name": "stddev",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": [
-                    {
-                      "language": "Keras",
-                      "argument": {
-                        "kwarg": false,
-                        "arg": 1
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "AlphaDropout",
               "category": "noise",
               "toolbox": "Keras",
@@ -8831,6 +8661,72 @@
                       "argument": {
                         "kwarg": true,
                         "arg": false
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GaussianDropout",
+              "category": "noise",
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GaussianDropout",
+                    "import": "from keras.layers import GaussianDropout"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/noise/GaussianDropout",
+              "ports": [
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": [
+                    {
+                      "language": "Keras",
+                      "argument": {
+                        "kwarg": false,
+                        "arg": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GaussianNoise",
+              "category": "noise",
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GaussianNoise",
+                    "import": "from keras.layers import GaussianNoise"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/noise/GaussianNoise",
+              "ports": [
+                {
+                  "name": "stddev",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": [
+                    {
+                      "language": "Keras",
+                      "argument": {
+                        "kwarg": false,
+                        "arg": 1
                       }
                     }
                   ]

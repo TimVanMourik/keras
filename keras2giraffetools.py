@@ -65,6 +65,8 @@ def get_function_signature(function, name):
     for argument, default in kwargs:
         if isinstance(default, str):
             default = '\'' + default + '\''
+        if isinstance(default, tuple):
+            default = "(" + ", ".join(map(str, default)) + ")"
         
         ports.append({ 
          'name': str(argument),
