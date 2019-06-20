@@ -43,7 +43,7 @@ def get_function_signature(function, name):
     sections = [i for i in sections if i] 
 
     ports = []
-    i = 1 #starting at 1 such that 0 is not mistaken for False
+    i = 0
     for argument in args:
         ports.append({ 
          'name': str(argument),
