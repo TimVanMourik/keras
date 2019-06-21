@@ -45,7 +45,7 @@ def get_function_signature(function, name):
     ports = []
     
     ports.append({
-        'name': 'INPUT',
+        'name': '',
         'input': True,
         'output': False,
         'visible': True,
@@ -95,7 +95,7 @@ def get_function_signature(function, name):
         })
     
     ports.append({
-        'name': 'OUTPUT',
+        'name': '',
         'input': False,
         'output': True,
         'visible': True,
