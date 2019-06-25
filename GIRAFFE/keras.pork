@@ -67,7 +67,7 @@
           "name": "filters",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "32",
           "visible": true,
           "iterator": false
         },
@@ -89,7 +89,7 @@
           "name": "kernel_size",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "(3,3)",
           "visible": true,
           "iterator": false
         },
@@ -585,7 +585,7 @@
           "name": "filters",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "32",
           "visible": true,
           "iterator": false
         },
@@ -607,7 +607,7 @@
           "name": "kernel_size",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "(3,3)",
           "visible": true,
           "iterator": false
         },
@@ -965,7 +965,7 @@
           "name": "rate",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "0.25",
           "visible": true,
           "iterator": false
         },
@@ -1153,7 +1153,7 @@
           "name": "units",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "128",
           "visible": true,
           "iterator": false
         },
@@ -1175,7 +1175,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'relu'",
           "visible": false,
           "iterator": false
         },
@@ -1423,7 +1423,7 @@
           "name": "rate",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "0.5",
           "visible": true,
           "iterator": false
         },
@@ -1539,7 +1539,7 @@
           "name": "units",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "10",
           "visible": true,
           "iterator": false
         },
@@ -1561,7 +1561,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'softmax'",
           "visible": false,
           "iterator": false
         },
