@@ -936,7 +936,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#80b649"
         },
         {
           "name": "convolutional",
@@ -3952,7 +3953,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#93aa42"
         },
         {
           "name": "pooling",
@@ -4863,7 +4865,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#a59941"
         },
         {
           "name": "local",
@@ -5406,7 +5409,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#b28646"
         },
         {
           "name": "recurrent",
@@ -9076,7 +9080,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#bb7251"
         },
         {
           "name": "embeddings",
@@ -9248,7 +9253,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#bf6060"
         },
         {
           "name": "normalization",
@@ -9507,7 +9513,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#bb5172"
         },
         {
           "name": "noise",
@@ -9693,7 +9700,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#b24686"
         },
         {
           "name": "merge",
@@ -10012,11 +10020,61 @@
                 }
               ]
             }
-          ]
+          ],
+          "colour": "#a54199"
         },
         {
           "name": "wrappers",
           "nodes": [
+            {
+              "name": "TimeDistributed",
+              "category": "wrappers",
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "TimeDistributed",
+                    "import": "from keras.layers import TimeDistributed"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/wrappers/TimeDistributed",
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "layer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": [
+                    {
+                      "language": "Keras",
+                      "argument": {
+                        "kwarg": false,
+                        "arg": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "Bidirectional",
               "category": "wrappers",
@@ -10099,59 +10157,12 @@
                   "code": []
                 }
               ]
-            },
-            {
-              "name": "TimeDistributed",
-              "category": "wrappers",
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "TimeDistributed",
-                    "import": "from keras.layers import TimeDistributed"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/wrappers/TimeDistributed",
-              "ports": [
-                {
-                  "name": "",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "layer",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": [
-                    {
-                      "language": "Keras",
-                      "argument": {
-                        "kwarg": false,
-                        "arg": 0
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
             }
-          ]
+          ],
+          "colour": "#9342aa"
         }
-      ]
+      ],
+      "colour": "#80b649"
     }
   ]
 }

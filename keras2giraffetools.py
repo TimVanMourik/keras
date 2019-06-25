@@ -5,6 +5,7 @@ import os
 import pathlib
 import inspect
 from keras import backend as K
+from math import sin, cos, pi, floor
 
 from docs.structure import EXCLUDE
 from docs.structure import PAGES
@@ -20,6 +21,7 @@ def clean_module_name(name):
     if name.startswith('keras_preprocessing'):
         name = name.replace('keras_preprocessing', 'keras.preprocessing')
     return name
+
 
 
 ### Modified from .docs.autogen
@@ -153,6 +155,19 @@ def get_class_signature(cls):
     return class_signature
 
 
+def get_rainbow_color(index):
+    r = floor(sin(pi * index + 0 * pi / 3) * 63) + 128;
+    g = floor(sin(pi * index + 2 * pi / 3) * 63) + 128;
+    b = floor(sin(pi * index + 4 * pi / 3) * 63) + 128;
+    return '#%02x%02x%02x' % (r, g, b)
+
+def insert_colours(sorted_nodes, colour_index, colour_spacing):
+    sorted_nodes['colour'] = get_rainbow_color(colour_index)
+    if 'categories' in sorted_nodes.keys() and sorted_nodes['categories']:
+        colour_spacing /= len(sorted_nodes['categories'])
+        for index, category in enumerate(sorted_nodes['categories']):
+            insert_colours(category, colour_index + index * colour_spacing, colour_spacing)
+            
 ### Copied from .docs.autogen and modified
 def generate(sources_dir):
     
@@ -176,11 +191,10 @@ def generate(sources_dir):
                 nodes.append(signature)
                 
             categories.append({ 'name': section.group('name'), 'nodes': nodes })
-            
         
-            
     dictionary = { 'name': TOOLBOX, 'categories': categories } 
-    
+    insert_colours(dictionary, 0.0, 1.0)        
+
     with open('keras_nodes.json', 'w') as outfile:    
         json.dump({'toolboxes': [dictionary]}, outfile, sort_keys=False, indent=2)
 
