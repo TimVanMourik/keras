@@ -15,7 +15,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Dense",
-                    "import": "from keras.layers import Dense"
+                    "import": "from tensorflow.keras.layers import Dense"
                   }
                 }
               ],
@@ -217,7 +217,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Activation",
-                    "import": "from keras.layers import Activation"
+                    "import": "from tensorflow.keras.layers import Activation"
                   }
                 }
               ],
@@ -266,7 +266,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Dropout",
-                    "import": "from keras.layers import Dropout"
+                    "import": "from tensorflow.keras.layers import Dropout"
                   }
                 }
               ],
@@ -349,7 +349,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Flatten",
-                    "import": "from keras.layers import Flatten"
+                    "import": "from tensorflow.keras.layers import Flatten"
                   }
                 }
               ],
@@ -400,7 +400,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Reshape",
-                    "import": "from keras.layers import Reshape"
+                    "import": "from tensorflow.keras.layers import Reshape"
                   }
                 }
               ],
@@ -449,7 +449,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Permute",
-                    "import": "from keras.layers import Permute"
+                    "import": "from tensorflow.keras.layers import Permute"
                   }
                 }
               ],
@@ -498,7 +498,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "RepeatVector",
-                    "import": "from keras.layers import RepeatVector"
+                    "import": "from tensorflow.keras.layers import RepeatVector"
                   }
                 }
               ],
@@ -547,7 +547,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Lambda",
-                    "import": "from keras.layers import Lambda"
+                    "import": "from tensorflow.keras.layers import Lambda"
                   }
                 }
               ],
@@ -647,7 +647,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "ActivityRegularization",
-                    "import": "from keras.layers import ActivityRegularization"
+                    "import": "from tensorflow.keras.layers import ActivityRegularization"
                   }
                 }
               ],
@@ -714,7 +714,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Masking",
-                    "import": "from keras.layers import Masking"
+                    "import": "from tensorflow.keras.layers import Masking"
                   }
                 }
               ],
@@ -764,7 +764,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SpatialDropout1D",
-                    "import": "from keras.layers import SpatialDropout1D"
+                    "import": "from tensorflow.keras.layers import SpatialDropout1D"
                   }
                 }
               ],
@@ -813,7 +813,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SpatialDropout2D",
-                    "import": "from keras.layers import SpatialDropout2D"
+                    "import": "from tensorflow.keras.layers import SpatialDropout2D"
                   }
                 }
               ],
@@ -879,7 +879,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SpatialDropout3D",
-                    "import": "from keras.layers import SpatialDropout3D"
+                    "import": "from tensorflow.keras.layers import SpatialDropout3D"
                   }
                 }
               ],
@@ -951,7 +951,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Conv1D",
-                    "import": "from keras.layers import Conv1D"
+                    "import": "from tensorflow.keras.layers import Conv1D"
                   }
                 }
               ],
@@ -1237,7 +1237,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Conv2D",
-                    "import": "from keras.layers import Conv2D"
+                    "import": "from tensorflow.keras.layers import Conv2D"
                   }
                 }
               ],
@@ -1523,7 +1523,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SeparableConv1D",
-                    "import": "from keras.layers import SeparableConv1D"
+                    "import": "from tensorflow.keras.layers import SeparableConv1D"
                   }
                 }
               ],
@@ -1877,7 +1877,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SeparableConv2D",
-                    "import": "from keras.layers import SeparableConv2D"
+                    "import": "from tensorflow.keras.layers import SeparableConv2D"
                   }
                 }
               ],
@@ -2231,7 +2231,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "DepthwiseConv2D",
-                    "import": "from keras.layers import DepthwiseConv2D"
+                    "import": "from tensorflow.keras.layers import DepthwiseConv2D"
                   }
                 }
               ],
@@ -2319,23 +2319,6 @@
                   "visible": false,
                   "editable": true,
                   "default": null,
-                  "code": [
-                    {
-                      "language": "Keras",
-                      "argument": {
-                        "kwarg": true,
-                        "arg": false
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "dilation_rate",
-                  "input": false,
-                  "output": false,
-                  "visible": false,
-                  "editable": true,
-                  "default": "(1, 1)",
                   "code": [
                     {
                       "language": "Keras",
@@ -2518,7 +2501,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Conv2DTranspose",
-                    "import": "from keras.layers import Conv2DTranspose"
+                    "import": "from tensorflow.keras.layers import Conv2DTranspose"
                   }
                 }
               ],
@@ -2821,7 +2804,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Conv3D",
-                    "import": "from keras.layers import Conv3D"
+                    "import": "from tensorflow.keras.layers import Conv3D"
                   }
                 }
               ],
@@ -3107,7 +3090,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Conv3DTranspose",
-                    "import": "from keras.layers import Conv3DTranspose"
+                    "import": "from tensorflow.keras.layers import Conv3DTranspose"
                   }
                 }
               ],
@@ -3393,7 +3376,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Cropping1D",
-                    "import": "from keras.layers import Cropping1D"
+                    "import": "from tensorflow.keras.layers import Cropping1D"
                   }
                 }
               ],
@@ -3443,7 +3426,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Cropping2D",
-                    "import": "from keras.layers import Cropping2D"
+                    "import": "from tensorflow.keras.layers import Cropping2D"
                   }
                 }
               ],
@@ -3510,7 +3493,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Cropping3D",
-                    "import": "from keras.layers import Cropping3D"
+                    "import": "from tensorflow.keras.layers import Cropping3D"
                   }
                 }
               ],
@@ -3577,7 +3560,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "UpSampling1D",
-                    "import": "from keras.layers import UpSampling1D"
+                    "import": "from tensorflow.keras.layers import UpSampling1D"
                   }
                 }
               ],
@@ -3627,7 +3610,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "UpSampling2D",
-                    "import": "from keras.layers import UpSampling2D"
+                    "import": "from tensorflow.keras.layers import UpSampling2D"
                   }
                 }
               ],
@@ -3711,7 +3694,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "UpSampling3D",
-                    "import": "from keras.layers import UpSampling3D"
+                    "import": "from tensorflow.keras.layers import UpSampling3D"
                   }
                 }
               ],
@@ -3778,7 +3761,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "ZeroPadding1D",
-                    "import": "from keras.layers import ZeroPadding1D"
+                    "import": "from tensorflow.keras.layers import ZeroPadding1D"
                   }
                 }
               ],
@@ -3828,7 +3811,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "ZeroPadding2D",
-                    "import": "from keras.layers import ZeroPadding2D"
+                    "import": "from tensorflow.keras.layers import ZeroPadding2D"
                   }
                 }
               ],
@@ -3895,7 +3878,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "ZeroPadding3D",
-                    "import": "from keras.layers import ZeroPadding3D"
+                    "import": "from tensorflow.keras.layers import ZeroPadding3D"
                   }
                 }
               ],
@@ -3968,7 +3951,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "MaxPooling1D",
-                    "import": "from keras.layers import MaxPooling1D"
+                    "import": "from tensorflow.keras.layers import MaxPooling1D"
                   }
                 }
               ],
@@ -4069,7 +4052,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "MaxPooling2D",
-                    "import": "from keras.layers import MaxPooling2D"
+                    "import": "from tensorflow.keras.layers import MaxPooling2D"
                   }
                 }
               ],
@@ -4170,7 +4153,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "MaxPooling3D",
-                    "import": "from keras.layers import MaxPooling3D"
+                    "import": "from tensorflow.keras.layers import MaxPooling3D"
                   }
                 }
               ],
@@ -4271,7 +4254,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "AveragePooling1D",
-                    "import": "from keras.layers import AveragePooling1D"
+                    "import": "from tensorflow.keras.layers import AveragePooling1D"
                   }
                 }
               ],
@@ -4372,7 +4355,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "AveragePooling2D",
-                    "import": "from keras.layers import AveragePooling2D"
+                    "import": "from tensorflow.keras.layers import AveragePooling2D"
                   }
                 }
               ],
@@ -4473,7 +4456,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "AveragePooling3D",
-                    "import": "from keras.layers import AveragePooling3D"
+                    "import": "from tensorflow.keras.layers import AveragePooling3D"
                   }
                 }
               ],
@@ -4574,7 +4557,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GlobalMaxPooling1D",
-                    "import": "from keras.layers import GlobalMaxPooling1D"
+                    "import": "from tensorflow.keras.layers import GlobalMaxPooling1D"
                   }
                 }
               ],
@@ -4624,7 +4607,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GlobalAveragePooling1D",
-                    "import": "from keras.layers import GlobalAveragePooling1D"
+                    "import": "from tensorflow.keras.layers import GlobalAveragePooling1D"
                   }
                 }
               ],
@@ -4674,7 +4657,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GlobalMaxPooling2D",
-                    "import": "from keras.layers import GlobalMaxPooling2D"
+                    "import": "from tensorflow.keras.layers import GlobalMaxPooling2D"
                   }
                 }
               ],
@@ -4724,7 +4707,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GlobalAveragePooling2D",
-                    "import": "from keras.layers import GlobalAveragePooling2D"
+                    "import": "from tensorflow.keras.layers import GlobalAveragePooling2D"
                   }
                 }
               ],
@@ -4774,7 +4757,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GlobalMaxPooling3D",
-                    "import": "from keras.layers import GlobalMaxPooling3D"
+                    "import": "from tensorflow.keras.layers import GlobalMaxPooling3D"
                   }
                 }
               ],
@@ -4824,7 +4807,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GlobalAveragePooling3D",
-                    "import": "from keras.layers import GlobalAveragePooling3D"
+                    "import": "from tensorflow.keras.layers import GlobalAveragePooling3D"
                   }
                 }
               ],
@@ -4880,7 +4863,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "LocallyConnected1D",
-                    "import": "from keras.layers import LocallyConnected1D"
+                    "import": "from tensorflow.keras.layers import LocallyConnected1D"
                   }
                 }
               ],
@@ -5149,7 +5132,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "LocallyConnected2D",
-                    "import": "from keras.layers import LocallyConnected2D"
+                    "import": "from tensorflow.keras.layers import LocallyConnected2D"
                   }
                 }
               ],
@@ -5424,7 +5407,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "RNN",
-                    "import": "from keras.layers import RNN"
+                    "import": "from tensorflow.keras.layers import RNN"
                   }
                 }
               ],
@@ -5558,7 +5541,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SimpleRNN",
-                    "import": "from keras.layers import SimpleRNN"
+                    "import": "from tensorflow.keras.layers import SimpleRNN"
                   }
                 }
               ],
@@ -5930,7 +5913,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GRU",
-                    "import": "from keras.layers import GRU"
+                    "import": "from tensorflow.keras.layers import GRU"
                   }
                 }
               ],
@@ -6353,7 +6336,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "LSTM",
-                    "import": "from keras.layers import LSTM"
+                    "import": "from tensorflow.keras.layers import LSTM"
                   }
                 }
               ],
@@ -6776,7 +6759,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "ConvLSTM2D",
-                    "import": "from keras.layers import ConvLSTM2D"
+                    "import": "from tensorflow.keras.layers import ConvLSTM2D"
                   }
                 }
               ],
@@ -7232,7 +7215,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "ConvLSTM2DCell",
-                    "import": "from keras.layers import ConvLSTM2DCell"
+                    "import": "from tensorflow.keras.layers import ConvLSTM2DCell"
                   }
                 }
               ],
@@ -7620,7 +7603,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "SimpleRNNCell",
-                    "import": "from keras.layers import SimpleRNNCell"
+                    "import": "from tensorflow.keras.layers import SimpleRNNCell"
                   }
                 }
               ],
@@ -7890,7 +7873,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GRUCell",
-                    "import": "from keras.layers import GRUCell"
+                    "import": "from tensorflow.keras.layers import GRUCell"
                   }
                 }
               ],
@@ -8211,7 +8194,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "LSTMCell",
-                    "import": "from keras.layers import LSTMCell"
+                    "import": "from tensorflow.keras.layers import LSTMCell"
                   }
                 }
               ],
@@ -8532,7 +8515,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "CuDNNGRU",
-                    "import": "from keras.layers import CuDNNGRU"
+                    "import": "from tensorflow.keras.layers import CuDNNGRU"
                   }
                 }
               ],
@@ -8802,7 +8785,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "CuDNNLSTM",
-                    "import": "from keras.layers import CuDNNLSTM"
+                    "import": "from tensorflow.keras.layers import CuDNNLSTM"
                   }
                 }
               ],
@@ -9095,7 +9078,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Embedding",
-                    "import": "from keras.layers import Embedding"
+                    "import": "from tensorflow.keras.layers import Embedding"
                   }
                 }
               ],
@@ -9268,7 +9251,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "BatchNormalization",
-                    "import": "from keras.layers import BatchNormalization"
+                    "import": "from tensorflow.keras.layers import BatchNormalization"
                   }
                 }
               ],
@@ -9528,7 +9511,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GaussianNoise",
-                    "import": "from keras.layers import GaussianNoise"
+                    "import": "from tensorflow.keras.layers import GaussianNoise"
                   }
                 }
               ],
@@ -9577,7 +9560,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "GaussianDropout",
-                    "import": "from keras.layers import GaussianDropout"
+                    "import": "from tensorflow.keras.layers import GaussianDropout"
                   }
                 }
               ],
@@ -9626,7 +9609,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "AlphaDropout",
-                    "import": "from keras.layers import AlphaDropout"
+                    "import": "from tensorflow.keras.layers import AlphaDropout"
                   }
                 }
               ],
@@ -9715,7 +9698,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Add",
-                    "import": "from keras.layers import Add"
+                    "import": "from tensorflow.keras.layers import Add"
                   }
                 }
               ],
@@ -9748,7 +9731,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Subtract",
-                    "import": "from keras.layers import Subtract"
+                    "import": "from tensorflow.keras.layers import Subtract"
                   }
                 }
               ],
@@ -9781,7 +9764,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Multiply",
-                    "import": "from keras.layers import Multiply"
+                    "import": "from tensorflow.keras.layers import Multiply"
                   }
                 }
               ],
@@ -9814,7 +9797,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Average",
-                    "import": "from keras.layers import Average"
+                    "import": "from tensorflow.keras.layers import Average"
                   }
                 }
               ],
@@ -9847,7 +9830,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Maximum",
-                    "import": "from keras.layers import Maximum"
+                    "import": "from tensorflow.keras.layers import Maximum"
                   }
                 }
               ],
@@ -9880,7 +9863,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Minimum",
-                    "import": "from keras.layers import Minimum"
+                    "import": "from tensorflow.keras.layers import Minimum"
                   }
                 }
               ],
@@ -9913,7 +9896,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Concatenate",
-                    "import": "from keras.layers import Concatenate"
+                    "import": "from tensorflow.keras.layers import Concatenate"
                   }
                 }
               ],
@@ -9963,7 +9946,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Dot",
-                    "import": "from keras.layers import Dot"
+                    "import": "from tensorflow.keras.layers import Dot"
                   }
                 }
               ],
@@ -10027,55 +10010,6 @@
           "name": "wrappers",
           "nodes": [
             {
-              "name": "TimeDistributed",
-              "category": "wrappers",
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "TimeDistributed",
-                    "import": "from keras.layers import TimeDistributed"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/wrappers/TimeDistributed",
-              "ports": [
-                {
-                  "name": "",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "layer",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": [
-                    {
-                      "language": "Keras",
-                      "argument": {
-                        "kwarg": false,
-                        "arg": 0
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
               "name": "Bidirectional",
               "category": "wrappers",
               "toolbox": "Keras",
@@ -10084,7 +10018,7 @@
                   "language": "Keras",
                   "argument": {
                     "name": "Bidirectional",
-                    "import": "from keras.layers import Bidirectional"
+                    "import": "from tensorflow.keras.layers import Bidirectional"
                   }
                 }
               ],
@@ -10144,6 +10078,55 @@
                       "argument": {
                         "kwarg": true,
                         "arg": false
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "TimeDistributed",
+              "category": "wrappers",
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "TimeDistributed",
+                    "import": "from tensorflow.keras.layers import TimeDistributed"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/wrappers/TimeDistributed",
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "layer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": [
+                    {
+                      "language": "Keras",
+                      "argument": {
+                        "kwarg": false,
+                        "arg": 0
                       }
                     }
                   ]

@@ -113,7 +113,7 @@ def get_function_signature(function, name):
       'language': TOOLBOX,
       'argument': {
        'name': name,
-       'import': 'from keras.layers import %s' % name
+       'import': 'from tensorflow.keras.layers import %s' % name
       }
      }],
      'web_url': 'https://keras.io/layers/%s/%s' % (sections[-1], name),
