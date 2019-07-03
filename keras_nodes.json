@@ -1,7 +1,7 @@
 {
   "toolboxes": [
     {
-      "name": "Keras",
+      "name": "Tensorflow",
       "categories": [
         {
           "name": "core",
@@ -9,10 +9,10 @@
             {
               "name": "Dense",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Dense",
                     "import": "from tensorflow.keras.layers import Dense"
@@ -37,7 +37,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -54,7 +54,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -71,7 +71,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -88,7 +88,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -105,7 +105,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -122,7 +122,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -139,7 +139,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -156,7 +156,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -173,7 +173,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -190,7 +190,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -211,10 +211,10 @@
             {
               "name": "Activation",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Activation",
                     "import": "from tensorflow.keras.layers import Activation"
@@ -239,7 +239,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -260,10 +260,10 @@
             {
               "name": "Dropout",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Dropout",
                     "import": "from tensorflow.keras.layers import Dropout"
@@ -288,7 +288,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -305,7 +305,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -322,7 +322,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -343,10 +343,10 @@
             {
               "name": "Flatten",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Flatten",
                     "import": "from tensorflow.keras.layers import Flatten"
@@ -372,7 +372,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -394,10 +394,10 @@
             {
               "name": "Reshape",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Reshape",
                     "import": "from tensorflow.keras.layers import Reshape"
@@ -422,7 +422,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -443,10 +443,10 @@
             {
               "name": "Permute",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Permute",
                     "import": "from tensorflow.keras.layers import Permute"
@@ -471,7 +471,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -492,10 +492,10 @@
             {
               "name": "RepeatVector",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "RepeatVector",
                     "import": "from tensorflow.keras.layers import RepeatVector"
@@ -520,7 +520,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -541,10 +541,10 @@
             {
               "name": "Lambda",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Lambda",
                     "import": "from tensorflow.keras.layers import Lambda"
@@ -569,7 +569,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -586,7 +586,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -603,7 +603,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -620,7 +620,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -641,10 +641,10 @@
             {
               "name": "ActivityRegularization",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "ActivityRegularization",
                     "import": "from tensorflow.keras.layers import ActivityRegularization"
@@ -670,7 +670,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -687,7 +687,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -708,10 +708,10 @@
             {
               "name": "Masking",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Masking",
                     "import": "from tensorflow.keras.layers import Masking"
@@ -737,7 +737,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -758,10 +758,10 @@
             {
               "name": "SpatialDropout1D",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SpatialDropout1D",
                     "import": "from tensorflow.keras.layers import SpatialDropout1D"
@@ -786,7 +786,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -807,10 +807,10 @@
             {
               "name": "SpatialDropout2D",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SpatialDropout2D",
                     "import": "from tensorflow.keras.layers import SpatialDropout2D"
@@ -835,7 +835,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -852,7 +852,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -873,10 +873,10 @@
             {
               "name": "SpatialDropout3D",
               "category": "core",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SpatialDropout3D",
                     "import": "from tensorflow.keras.layers import SpatialDropout3D"
@@ -901,7 +901,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -918,7 +918,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -945,10 +945,10 @@
             {
               "name": "Conv1D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Conv1D",
                     "import": "from tensorflow.keras.layers import Conv1D"
@@ -973,7 +973,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -989,7 +989,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -1006,7 +1006,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1023,7 +1023,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1040,7 +1040,7 @@
                   "default": "'channels_last'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1057,7 +1057,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1074,7 +1074,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1091,7 +1091,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1108,7 +1108,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1125,7 +1125,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1142,7 +1142,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1159,7 +1159,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1176,7 +1176,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1193,7 +1193,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1210,7 +1210,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1231,10 +1231,10 @@
             {
               "name": "Conv2D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Conv2D",
                     "import": "from tensorflow.keras.layers import Conv2D"
@@ -1259,7 +1259,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -1275,7 +1275,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -1292,7 +1292,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1309,7 +1309,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1326,7 +1326,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1343,7 +1343,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1360,7 +1360,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1377,7 +1377,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1394,7 +1394,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1411,7 +1411,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1428,7 +1428,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1445,7 +1445,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1462,7 +1462,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1479,7 +1479,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1496,7 +1496,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1517,10 +1517,10 @@
             {
               "name": "SeparableConv1D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SeparableConv1D",
                     "import": "from tensorflow.keras.layers import SeparableConv1D"
@@ -1545,7 +1545,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -1561,7 +1561,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -1578,7 +1578,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1595,7 +1595,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1612,7 +1612,7 @@
                   "default": "'channels_last'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1629,7 +1629,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1646,7 +1646,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1663,7 +1663,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1680,7 +1680,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1697,7 +1697,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1714,7 +1714,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1731,7 +1731,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1748,7 +1748,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1765,7 +1765,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1782,7 +1782,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1799,7 +1799,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1816,7 +1816,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1833,7 +1833,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1850,7 +1850,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1871,10 +1871,10 @@
             {
               "name": "SeparableConv2D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SeparableConv2D",
                     "import": "from tensorflow.keras.layers import SeparableConv2D"
@@ -1899,7 +1899,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -1915,7 +1915,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -1932,7 +1932,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1949,7 +1949,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1966,7 +1966,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -1983,7 +1983,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2000,7 +2000,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2017,7 +2017,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2034,7 +2034,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2051,7 +2051,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2068,7 +2068,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2085,7 +2085,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2102,7 +2102,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2119,7 +2119,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2136,7 +2136,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2153,7 +2153,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2170,7 +2170,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2187,7 +2187,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2204,7 +2204,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2225,10 +2225,10 @@
             {
               "name": "DepthwiseConv2D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "DepthwiseConv2D",
                     "import": "from tensorflow.keras.layers import DepthwiseConv2D"
@@ -2253,7 +2253,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -2270,7 +2270,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2287,7 +2287,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2304,7 +2304,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2321,7 +2321,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2338,7 +2338,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2355,7 +2355,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2372,7 +2372,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2389,7 +2389,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2406,7 +2406,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2423,7 +2423,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2440,7 +2440,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2457,7 +2457,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2474,7 +2474,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2495,10 +2495,10 @@
             {
               "name": "Conv2DTranspose",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Conv2DTranspose",
                     "import": "from tensorflow.keras.layers import Conv2DTranspose"
@@ -2523,7 +2523,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -2539,7 +2539,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -2556,7 +2556,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2573,7 +2573,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2590,7 +2590,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2607,7 +2607,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2624,7 +2624,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2641,7 +2641,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2658,7 +2658,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2675,7 +2675,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2692,7 +2692,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2709,7 +2709,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2726,7 +2726,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2743,7 +2743,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2760,7 +2760,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2777,7 +2777,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2798,10 +2798,10 @@
             {
               "name": "Conv3D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Conv3D",
                     "import": "from tensorflow.keras.layers import Conv3D"
@@ -2826,7 +2826,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -2842,7 +2842,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -2859,7 +2859,7 @@
                   "default": "(1, 1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2876,7 +2876,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2893,7 +2893,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2910,7 +2910,7 @@
                   "default": "(1, 1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2927,7 +2927,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2944,7 +2944,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2961,7 +2961,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2978,7 +2978,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -2995,7 +2995,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3012,7 +3012,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3029,7 +3029,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3046,7 +3046,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3063,7 +3063,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3084,10 +3084,10 @@
             {
               "name": "Conv3DTranspose",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Conv3DTranspose",
                     "import": "from tensorflow.keras.layers import Conv3DTranspose"
@@ -3112,7 +3112,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -3128,7 +3128,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -3145,7 +3145,7 @@
                   "default": "(1, 1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3162,7 +3162,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3179,7 +3179,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3196,7 +3196,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3213,7 +3213,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3230,7 +3230,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3247,7 +3247,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3264,7 +3264,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3281,7 +3281,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3298,7 +3298,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3315,7 +3315,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3332,7 +3332,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3349,7 +3349,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3370,10 +3370,10 @@
             {
               "name": "Cropping1D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Cropping1D",
                     "import": "from tensorflow.keras.layers import Cropping1D"
@@ -3399,7 +3399,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3420,10 +3420,10 @@
             {
               "name": "Cropping2D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Cropping2D",
                     "import": "from tensorflow.keras.layers import Cropping2D"
@@ -3449,7 +3449,7 @@
                   "default": "((0, 0), (0, 0))",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3466,7 +3466,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3487,10 +3487,10 @@
             {
               "name": "Cropping3D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Cropping3D",
                     "import": "from tensorflow.keras.layers import Cropping3D"
@@ -3516,7 +3516,7 @@
                   "default": "((1, 1), (1, 1), (1, 1))",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3533,7 +3533,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3554,10 +3554,10 @@
             {
               "name": "UpSampling1D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "UpSampling1D",
                     "import": "from tensorflow.keras.layers import UpSampling1D"
@@ -3583,7 +3583,7 @@
                   "default": 2,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3604,10 +3604,10 @@
             {
               "name": "UpSampling2D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "UpSampling2D",
                     "import": "from tensorflow.keras.layers import UpSampling2D"
@@ -3633,7 +3633,7 @@
                   "default": "(2, 2)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3650,7 +3650,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3667,7 +3667,7 @@
                   "default": "'nearest'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3688,10 +3688,10 @@
             {
               "name": "UpSampling3D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "UpSampling3D",
                     "import": "from tensorflow.keras.layers import UpSampling3D"
@@ -3717,7 +3717,7 @@
                   "default": "(2, 2, 2)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3734,7 +3734,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3755,10 +3755,10 @@
             {
               "name": "ZeroPadding1D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "ZeroPadding1D",
                     "import": "from tensorflow.keras.layers import ZeroPadding1D"
@@ -3784,7 +3784,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3805,10 +3805,10 @@
             {
               "name": "ZeroPadding2D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "ZeroPadding2D",
                     "import": "from tensorflow.keras.layers import ZeroPadding2D"
@@ -3834,7 +3834,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3851,7 +3851,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3872,10 +3872,10 @@
             {
               "name": "ZeroPadding3D",
               "category": "convolutional",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "ZeroPadding3D",
                     "import": "from tensorflow.keras.layers import ZeroPadding3D"
@@ -3901,7 +3901,7 @@
                   "default": "(1, 1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3918,7 +3918,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3945,10 +3945,10 @@
             {
               "name": "MaxPooling1D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "MaxPooling1D",
                     "import": "from tensorflow.keras.layers import MaxPooling1D"
@@ -3974,7 +3974,7 @@
                   "default": 2,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -3991,7 +3991,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4008,7 +4008,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4025,7 +4025,7 @@
                   "default": "'channels_last'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4046,10 +4046,10 @@
             {
               "name": "MaxPooling2D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "MaxPooling2D",
                     "import": "from tensorflow.keras.layers import MaxPooling2D"
@@ -4075,7 +4075,7 @@
                   "default": "(2, 2)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4092,7 +4092,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4109,7 +4109,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4126,7 +4126,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4147,10 +4147,10 @@
             {
               "name": "MaxPooling3D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "MaxPooling3D",
                     "import": "from tensorflow.keras.layers import MaxPooling3D"
@@ -4176,7 +4176,7 @@
                   "default": "(2, 2, 2)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4193,7 +4193,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4210,7 +4210,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4227,7 +4227,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4248,10 +4248,10 @@
             {
               "name": "AveragePooling1D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "AveragePooling1D",
                     "import": "from tensorflow.keras.layers import AveragePooling1D"
@@ -4277,7 +4277,7 @@
                   "default": 2,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4294,7 +4294,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4311,7 +4311,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4328,7 +4328,7 @@
                   "default": "'channels_last'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4349,10 +4349,10 @@
             {
               "name": "AveragePooling2D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "AveragePooling2D",
                     "import": "from tensorflow.keras.layers import AveragePooling2D"
@@ -4378,7 +4378,7 @@
                   "default": "(2, 2)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4395,7 +4395,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4412,7 +4412,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4429,7 +4429,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4450,10 +4450,10 @@
             {
               "name": "AveragePooling3D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "AveragePooling3D",
                     "import": "from tensorflow.keras.layers import AveragePooling3D"
@@ -4479,7 +4479,7 @@
                   "default": "(2, 2, 2)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4496,7 +4496,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4513,7 +4513,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4530,7 +4530,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4551,10 +4551,10 @@
             {
               "name": "GlobalMaxPooling1D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GlobalMaxPooling1D",
                     "import": "from tensorflow.keras.layers import GlobalMaxPooling1D"
@@ -4580,7 +4580,7 @@
                   "default": "'channels_last'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4601,10 +4601,10 @@
             {
               "name": "GlobalAveragePooling1D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GlobalAveragePooling1D",
                     "import": "from tensorflow.keras.layers import GlobalAveragePooling1D"
@@ -4630,7 +4630,7 @@
                   "default": "'channels_last'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4651,10 +4651,10 @@
             {
               "name": "GlobalMaxPooling2D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GlobalMaxPooling2D",
                     "import": "from tensorflow.keras.layers import GlobalMaxPooling2D"
@@ -4680,7 +4680,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4701,10 +4701,10 @@
             {
               "name": "GlobalAveragePooling2D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GlobalAveragePooling2D",
                     "import": "from tensorflow.keras.layers import GlobalAveragePooling2D"
@@ -4730,7 +4730,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4751,10 +4751,10 @@
             {
               "name": "GlobalMaxPooling3D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GlobalMaxPooling3D",
                     "import": "from tensorflow.keras.layers import GlobalMaxPooling3D"
@@ -4780,7 +4780,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4801,10 +4801,10 @@
             {
               "name": "GlobalAveragePooling3D",
               "category": "pooling",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GlobalAveragePooling3D",
                     "import": "from tensorflow.keras.layers import GlobalAveragePooling3D"
@@ -4830,7 +4830,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4857,10 +4857,10 @@
             {
               "name": "LocallyConnected1D",
               "category": "local",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "LocallyConnected1D",
                     "import": "from tensorflow.keras.layers import LocallyConnected1D"
@@ -4885,7 +4885,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -4901,7 +4901,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -4918,7 +4918,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4935,7 +4935,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4952,7 +4952,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4969,7 +4969,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -4986,7 +4986,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5003,7 +5003,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5020,7 +5020,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5037,7 +5037,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5054,7 +5054,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5071,7 +5071,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5088,7 +5088,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5105,7 +5105,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5126,10 +5126,10 @@
             {
               "name": "LocallyConnected2D",
               "category": "local",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "LocallyConnected2D",
                     "import": "from tensorflow.keras.layers import LocallyConnected2D"
@@ -5154,7 +5154,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -5170,7 +5170,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -5187,7 +5187,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5204,7 +5204,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5221,7 +5221,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5238,7 +5238,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5255,7 +5255,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5272,7 +5272,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5289,7 +5289,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5306,7 +5306,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5323,7 +5323,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5340,7 +5340,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5357,7 +5357,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5374,7 +5374,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5401,10 +5401,10 @@
             {
               "name": "RNN",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "RNN",
                     "import": "from tensorflow.keras.layers import RNN"
@@ -5429,7 +5429,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -5446,7 +5446,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5463,7 +5463,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5480,7 +5480,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5497,7 +5497,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5514,7 +5514,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5535,10 +5535,10 @@
             {
               "name": "SimpleRNN",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SimpleRNN",
                     "import": "from tensorflow.keras.layers import SimpleRNN"
@@ -5563,7 +5563,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -5580,7 +5580,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5597,7 +5597,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5614,7 +5614,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5631,7 +5631,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5648,7 +5648,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5665,7 +5665,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5682,7 +5682,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5699,7 +5699,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5716,7 +5716,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5733,7 +5733,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5750,7 +5750,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5767,7 +5767,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5784,7 +5784,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5801,7 +5801,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5818,7 +5818,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5835,7 +5835,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5852,7 +5852,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5869,7 +5869,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5886,7 +5886,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5907,10 +5907,10 @@
             {
               "name": "GRU",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GRU",
                     "import": "from tensorflow.keras.layers import GRU"
@@ -5935,7 +5935,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -5952,7 +5952,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5969,7 +5969,7 @@
                   "default": "'hard_sigmoid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -5986,7 +5986,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6003,7 +6003,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6020,7 +6020,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6037,7 +6037,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6054,7 +6054,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6071,7 +6071,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6088,7 +6088,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6105,7 +6105,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6122,7 +6122,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6139,7 +6139,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6156,7 +6156,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6173,7 +6173,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6190,7 +6190,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6207,7 +6207,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6224,7 +6224,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6241,7 +6241,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6258,7 +6258,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6275,7 +6275,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6292,7 +6292,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6309,7 +6309,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6330,10 +6330,10 @@
             {
               "name": "LSTM",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "LSTM",
                     "import": "from tensorflow.keras.layers import LSTM"
@@ -6358,7 +6358,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -6375,7 +6375,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6392,7 +6392,7 @@
                   "default": "'hard_sigmoid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6409,7 +6409,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6426,7 +6426,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6443,7 +6443,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6460,7 +6460,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6477,7 +6477,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6494,7 +6494,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6511,7 +6511,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6528,7 +6528,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6545,7 +6545,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6562,7 +6562,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6579,7 +6579,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6596,7 +6596,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6613,7 +6613,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6630,7 +6630,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6647,7 +6647,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6664,7 +6664,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6681,7 +6681,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6698,7 +6698,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6715,7 +6715,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6732,7 +6732,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6753,10 +6753,10 @@
             {
               "name": "ConvLSTM2D",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "ConvLSTM2D",
                     "import": "from tensorflow.keras.layers import ConvLSTM2D"
@@ -6781,7 +6781,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -6797,7 +6797,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -6814,7 +6814,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6831,7 +6831,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6848,7 +6848,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6865,7 +6865,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6882,7 +6882,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6899,7 +6899,7 @@
                   "default": "'hard_sigmoid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6916,7 +6916,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6933,7 +6933,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6950,7 +6950,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6967,7 +6967,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -6984,7 +6984,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7001,7 +7001,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7018,7 +7018,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7035,7 +7035,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7052,7 +7052,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7069,7 +7069,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7086,7 +7086,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7103,7 +7103,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7120,7 +7120,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7137,7 +7137,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7154,7 +7154,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7171,7 +7171,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7188,7 +7188,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7209,10 +7209,10 @@
             {
               "name": "ConvLSTM2DCell",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "ConvLSTM2DCell",
                     "import": "from tensorflow.keras.layers import ConvLSTM2DCell"
@@ -7237,7 +7237,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -7253,7 +7253,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -7270,7 +7270,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7287,7 +7287,7 @@
                   "default": "'valid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7304,7 +7304,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7321,7 +7321,7 @@
                   "default": "(1, 1)",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7338,7 +7338,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7355,7 +7355,7 @@
                   "default": "'hard_sigmoid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7372,7 +7372,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7389,7 +7389,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7406,7 +7406,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7423,7 +7423,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7440,7 +7440,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7457,7 +7457,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7474,7 +7474,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7491,7 +7491,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7508,7 +7508,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7525,7 +7525,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7542,7 +7542,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7559,7 +7559,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7576,7 +7576,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7597,10 +7597,10 @@
             {
               "name": "SimpleRNNCell",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "SimpleRNNCell",
                     "import": "from tensorflow.keras.layers import SimpleRNNCell"
@@ -7625,7 +7625,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -7642,7 +7642,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7659,7 +7659,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7676,7 +7676,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7693,7 +7693,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7710,7 +7710,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7727,7 +7727,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7744,7 +7744,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7761,7 +7761,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7778,7 +7778,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7795,7 +7795,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7812,7 +7812,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7829,7 +7829,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7846,7 +7846,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7867,10 +7867,10 @@
             {
               "name": "GRUCell",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GRUCell",
                     "import": "from tensorflow.keras.layers import GRUCell"
@@ -7895,7 +7895,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -7912,7 +7912,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7929,7 +7929,7 @@
                   "default": "'hard_sigmoid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7946,7 +7946,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7963,7 +7963,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7980,7 +7980,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -7997,7 +7997,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8014,7 +8014,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8031,7 +8031,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8048,7 +8048,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8065,7 +8065,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8082,7 +8082,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8099,7 +8099,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8116,7 +8116,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8133,7 +8133,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8150,7 +8150,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8167,7 +8167,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8188,10 +8188,10 @@
             {
               "name": "LSTMCell",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "LSTMCell",
                     "import": "from tensorflow.keras.layers import LSTMCell"
@@ -8216,7 +8216,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -8233,7 +8233,7 @@
                   "default": "'tanh'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8250,7 +8250,7 @@
                   "default": "'hard_sigmoid'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8267,7 +8267,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8284,7 +8284,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8301,7 +8301,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8318,7 +8318,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8335,7 +8335,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8352,7 +8352,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8369,7 +8369,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8386,7 +8386,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8403,7 +8403,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8420,7 +8420,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8437,7 +8437,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8454,7 +8454,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8471,7 +8471,7 @@
                   "default": 0.0,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8488,7 +8488,7 @@
                   "default": 1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8509,10 +8509,10 @@
             {
               "name": "CuDNNGRU",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "CuDNNGRU",
                     "import": "from tensorflow.keras.layers import CuDNNGRU"
@@ -8537,7 +8537,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -8554,7 +8554,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8571,7 +8571,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8588,7 +8588,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8605,7 +8605,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8622,7 +8622,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8639,7 +8639,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8656,7 +8656,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8673,7 +8673,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8690,7 +8690,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8707,7 +8707,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8724,7 +8724,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8741,7 +8741,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8758,7 +8758,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8779,10 +8779,10 @@
             {
               "name": "CuDNNLSTM",
               "category": "recurrent",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "CuDNNLSTM",
                     "import": "from tensorflow.keras.layers import CuDNNLSTM"
@@ -8807,7 +8807,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -8824,7 +8824,7 @@
                   "default": "'glorot_uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8841,7 +8841,7 @@
                   "default": "'orthogonal'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8858,7 +8858,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8875,7 +8875,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8892,7 +8892,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8909,7 +8909,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8926,7 +8926,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8943,7 +8943,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8960,7 +8960,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8977,7 +8977,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -8994,7 +8994,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9011,7 +9011,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9028,7 +9028,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9045,7 +9045,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9072,10 +9072,10 @@
             {
               "name": "Embedding",
               "category": "embeddings",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Embedding",
                     "import": "from tensorflow.keras.layers import Embedding"
@@ -9100,7 +9100,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -9116,7 +9116,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 1
@@ -9133,7 +9133,7 @@
                   "default": "'uniform'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9150,7 +9150,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9167,7 +9167,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9184,7 +9184,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9201,7 +9201,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9218,7 +9218,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9245,10 +9245,10 @@
             {
               "name": "BatchNormalization",
               "category": "normalization",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "BatchNormalization",
                     "import": "from tensorflow.keras.layers import BatchNormalization"
@@ -9274,7 +9274,7 @@
                   "default": -1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9291,7 +9291,7 @@
                   "default": 0.99,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9308,7 +9308,7 @@
                   "default": 0.001,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9325,7 +9325,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9342,7 +9342,7 @@
                   "default": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9359,7 +9359,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9376,7 +9376,7 @@
                   "default": "'ones'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9393,7 +9393,7 @@
                   "default": "'zeros'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9410,7 +9410,7 @@
                   "default": "'ones'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9427,7 +9427,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9444,7 +9444,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9461,7 +9461,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9478,7 +9478,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9505,10 +9505,10 @@
             {
               "name": "GaussianNoise",
               "category": "noise",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GaussianNoise",
                     "import": "from tensorflow.keras.layers import GaussianNoise"
@@ -9533,7 +9533,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -9554,10 +9554,10 @@
             {
               "name": "GaussianDropout",
               "category": "noise",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "GaussianDropout",
                     "import": "from tensorflow.keras.layers import GaussianDropout"
@@ -9582,7 +9582,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -9603,10 +9603,10 @@
             {
               "name": "AlphaDropout",
               "category": "noise",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "AlphaDropout",
                     "import": "from tensorflow.keras.layers import AlphaDropout"
@@ -9631,7 +9631,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -9648,7 +9648,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9665,7 +9665,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9692,10 +9692,10 @@
             {
               "name": "Add",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Add",
                     "import": "from tensorflow.keras.layers import Add"
@@ -9725,10 +9725,10 @@
             {
               "name": "Subtract",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Subtract",
                     "import": "from tensorflow.keras.layers import Subtract"
@@ -9758,10 +9758,10 @@
             {
               "name": "Multiply",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Multiply",
                     "import": "from tensorflow.keras.layers import Multiply"
@@ -9791,10 +9791,10 @@
             {
               "name": "Average",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Average",
                     "import": "from tensorflow.keras.layers import Average"
@@ -9824,10 +9824,10 @@
             {
               "name": "Maximum",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Maximum",
                     "import": "from tensorflow.keras.layers import Maximum"
@@ -9857,10 +9857,10 @@
             {
               "name": "Minimum",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Minimum",
                     "import": "from tensorflow.keras.layers import Minimum"
@@ -9890,10 +9890,10 @@
             {
               "name": "Concatenate",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Concatenate",
                     "import": "from tensorflow.keras.layers import Concatenate"
@@ -9919,7 +9919,7 @@
                   "default": -1,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -9940,10 +9940,10 @@
             {
               "name": "Dot",
               "category": "merge",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Dot",
                     "import": "from tensorflow.keras.layers import Dot"
@@ -9968,7 +9968,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -9985,7 +9985,7 @@
                   "default": false,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -10012,10 +10012,10 @@
             {
               "name": "Bidirectional",
               "category": "wrappers",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "Bidirectional",
                     "import": "from tensorflow.keras.layers import Bidirectional"
@@ -10040,7 +10040,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0
@@ -10057,7 +10057,7 @@
                   "default": "'concat'",
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -10074,7 +10074,7 @@
                   "default": null,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": true,
                         "arg": false
@@ -10095,10 +10095,10 @@
             {
               "name": "TimeDistributed",
               "category": "wrappers",
-              "toolbox": "Keras",
+              "toolbox": "Tensorflow",
               "code": [
                 {
-                  "language": "Keras",
+                  "language": "Tensorflow",
                   "argument": {
                     "name": "TimeDistributed",
                     "import": "from tensorflow.keras.layers import TimeDistributed"
@@ -10123,7 +10123,7 @@
                   "editable": true,
                   "code": [
                     {
-                      "language": "Keras",
+                      "language": "Tensorflow",
                       "argument": {
                         "kwarg": false,
                         "arg": 0

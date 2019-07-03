@@ -12,7 +12,7 @@ from docs.structure import PAGES
 
 keras_dir = pathlib.Path(__file__).resolve().parents[1]
 
-TOOLBOX = 'Keras'
+TOOLBOX = 'Tensorflow'
 
 ### Copied from .docs.autogen
 def clean_module_name(name):
