@@ -5,7 +5,7 @@ import os
 import pathlib
 import inspect
 from keras import backend as K
-from math import sin, cos, pi, floor
+from math import sin, pi, floor
 
 from docs.structure import EXCLUDE
 from docs.structure import PAGES
@@ -21,9 +21,8 @@ def clean_module_name(name):
     if name.startswith('keras_preprocessing'):
         name = name.replace('keras_preprocessing', 'keras.preprocessing')
     return name
-
-
-
+    
+    
 ### Modified from .docs.autogen
 def get_function_signature(function, name):
     wrapped = getattr(function, '_original_function', None)
@@ -80,13 +79,20 @@ def get_function_signature(function, name):
         if isinstance(default, tuple):
             default = "(" + ", ".join(map(str, default)) + ")"
         
-        ports.append({ 
+        types = {
+          type(True): "boolean",
+          type(''): "string",
+          type(1): "numeric",
+          type(1.): "numeric",
+          type(None): None
+        }
+        port = {
          'name': str(argument),
          'input': False,
          'output': False,
          'visible': False,
          'editable': True,
-         'default': default, 
+         'default': default,
          'code': [{
           'language': TOOLBOX,
           'argument': {
@@ -94,8 +100,13 @@ def get_function_signature(function, name):
            'arg': False
           }
          }]
-        })
-    
+        }
+        print(type(default))
+        if type(default) in types:
+            port['type'] = types[type(default)]
+
+        ports.append(port)
+
     ports.append({
         'name': '',
         'input': False,

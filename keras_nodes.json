@@ -60,7 +60,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -77,7 +78,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -94,7 +96,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -111,7 +114,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -128,7 +132,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -145,7 +150,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -162,7 +168,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -179,7 +186,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -196,7 +204,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -311,7 +320,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "seed",
@@ -328,7 +338,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -378,7 +389,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -592,7 +604,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "mask",
@@ -609,7 +622,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "arguments",
@@ -626,7 +640,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -676,7 +691,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "l2",
@@ -693,7 +709,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -743,7 +760,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -858,7 +876,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -924,7 +943,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -1012,7 +1032,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "padding",
@@ -1029,7 +1050,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -1046,7 +1068,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "dilation_rate",
@@ -1063,7 +1086,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "activation",
@@ -1080,7 +1104,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -1097,7 +1122,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -1114,7 +1140,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -1131,7 +1158,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -1148,7 +1176,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -1165,7 +1194,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -1182,7 +1212,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -1199,7 +1230,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -1216,7 +1248,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -1298,7 +1331,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -1315,7 +1349,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -1332,7 +1367,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dilation_rate",
@@ -1349,7 +1385,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "activation",
@@ -1366,7 +1403,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -1383,7 +1421,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -1400,7 +1439,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -1417,7 +1457,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -1434,7 +1475,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -1451,7 +1493,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -1468,7 +1511,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -1485,7 +1529,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -1502,7 +1547,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -1584,7 +1630,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "padding",
@@ -1601,7 +1648,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -1618,7 +1666,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "dilation_rate",
@@ -1635,7 +1684,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "depth_multiplier",
@@ -1652,7 +1702,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "activation",
@@ -1669,7 +1720,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -1686,7 +1738,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "depthwise_initializer",
@@ -1703,7 +1756,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "pointwise_initializer",
@@ -1720,7 +1774,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -1737,7 +1792,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "depthwise_regularizer",
@@ -1754,7 +1810,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "pointwise_regularizer",
@@ -1771,7 +1828,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -1788,7 +1846,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -1805,7 +1864,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "depthwise_constraint",
@@ -1822,7 +1882,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "pointwise_constraint",
@@ -1839,7 +1900,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -1856,7 +1918,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -1938,7 +2001,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -1955,7 +2019,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -1972,7 +2037,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dilation_rate",
@@ -1989,7 +2055,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "depth_multiplier",
@@ -2006,7 +2073,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "activation",
@@ -2023,7 +2091,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -2040,7 +2109,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "depthwise_initializer",
@@ -2057,7 +2127,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "pointwise_initializer",
@@ -2074,7 +2145,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -2091,7 +2163,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "depthwise_regularizer",
@@ -2108,7 +2181,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "pointwise_regularizer",
@@ -2125,7 +2199,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -2142,7 +2217,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -2159,7 +2235,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "depthwise_constraint",
@@ -2176,7 +2253,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "pointwise_constraint",
@@ -2193,7 +2271,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -2210,7 +2289,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -2276,7 +2356,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -2293,7 +2374,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "depth_multiplier",
@@ -2310,7 +2392,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "data_format",
@@ -2327,7 +2410,26 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": false,
+                  "editable": true,
+                  "default": "(1, 1)",
+                  "code": [
+                    {
+                      "language": "Tensorflow",
+                      "argument": {
+                        "kwarg": true,
+                        "arg": false
+                      }
+                    }
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "activation",
@@ -2344,7 +2446,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -2361,7 +2464,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "depthwise_initializer",
@@ -2378,7 +2482,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -2395,7 +2500,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "depthwise_regularizer",
@@ -2412,7 +2518,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -2429,7 +2536,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -2446,7 +2554,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "depthwise_constraint",
@@ -2463,7 +2572,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -2480,7 +2590,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -2562,7 +2673,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -2579,7 +2691,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "output_padding",
@@ -2596,7 +2709,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "data_format",
@@ -2613,7 +2727,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dilation_rate",
@@ -2630,7 +2745,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "activation",
@@ -2647,7 +2763,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -2664,7 +2781,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -2681,7 +2799,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -2698,7 +2817,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -2715,7 +2835,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -2732,7 +2853,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -2749,7 +2871,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -2766,7 +2889,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -2783,7 +2907,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -2865,7 +2990,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -2882,7 +3008,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -2899,7 +3026,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dilation_rate",
@@ -2916,7 +3044,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "activation",
@@ -2933,7 +3062,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -2950,7 +3080,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -2967,7 +3098,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -2984,7 +3116,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -3001,7 +3134,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -3018,7 +3152,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -3035,7 +3170,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -3052,7 +3188,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -3069,7 +3206,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3151,7 +3289,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -3168,7 +3307,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "output_padding",
@@ -3185,7 +3325,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "data_format",
@@ -3202,7 +3343,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activation",
@@ -3219,7 +3361,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -3236,7 +3379,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -3253,7 +3397,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -3270,7 +3415,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -3287,7 +3433,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -3304,7 +3451,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -3321,7 +3469,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -3338,7 +3487,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -3355,7 +3505,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3405,7 +3556,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "",
@@ -3455,7 +3607,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -3472,7 +3625,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3522,7 +3676,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -3539,7 +3694,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3589,7 +3745,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -3639,7 +3796,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -3656,7 +3814,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "interpolation",
@@ -3673,7 +3832,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "",
@@ -3723,7 +3883,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -3740,7 +3901,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3790,7 +3952,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -3840,7 +4003,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -3857,7 +4021,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3907,7 +4072,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -3924,7 +4090,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -3980,7 +4147,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "strides",
@@ -3997,7 +4165,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "padding",
@@ -4014,7 +4183,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4031,7 +4201,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "",
@@ -4081,7 +4252,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "strides",
@@ -4098,7 +4270,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "padding",
@@ -4115,7 +4288,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4132,7 +4306,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4182,7 +4357,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "strides",
@@ -4199,7 +4375,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "padding",
@@ -4216,7 +4393,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4233,7 +4411,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4283,7 +4462,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "strides",
@@ -4300,7 +4480,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "padding",
@@ -4317,7 +4498,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4334,7 +4516,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "",
@@ -4384,7 +4567,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "strides",
@@ -4401,7 +4585,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "padding",
@@ -4418,7 +4603,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4435,7 +4621,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4485,7 +4672,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "strides",
@@ -4502,7 +4690,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "padding",
@@ -4519,7 +4708,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4536,7 +4726,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4586,7 +4777,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "",
@@ -4636,7 +4828,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "",
@@ -4686,7 +4879,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4736,7 +4930,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4786,7 +4981,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4836,7 +5032,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -4924,7 +5121,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "padding",
@@ -4941,7 +5139,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -4958,7 +5157,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activation",
@@ -4975,7 +5175,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -4992,7 +5193,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -5009,7 +5211,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -5026,7 +5229,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -5043,7 +5247,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -5060,7 +5265,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -5077,7 +5283,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -5094,7 +5301,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -5111,7 +5319,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -5193,7 +5402,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -5210,7 +5420,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -5227,7 +5438,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activation",
@@ -5244,7 +5456,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "use_bias",
@@ -5261,7 +5474,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -5278,7 +5492,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -5295,7 +5510,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -5312,7 +5528,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -5329,7 +5546,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -5346,7 +5564,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -5363,7 +5582,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -5380,7 +5600,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -5452,7 +5673,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "return_state",
@@ -5469,7 +5691,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "go_backwards",
@@ -5486,7 +5709,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -5503,7 +5727,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "unroll",
@@ -5520,7 +5745,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -5586,7 +5812,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -5603,7 +5830,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -5620,7 +5848,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -5637,7 +5866,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -5654,7 +5884,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -5671,7 +5902,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -5688,7 +5920,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -5705,7 +5938,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -5722,7 +5956,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -5739,7 +5974,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -5756,7 +5992,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -5773,7 +6010,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -5790,7 +6028,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -5807,7 +6046,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "return_sequences",
@@ -5824,7 +6064,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "return_state",
@@ -5841,7 +6082,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "go_backwards",
@@ -5858,7 +6100,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -5875,7 +6118,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "unroll",
@@ -5892,7 +6136,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -5958,7 +6203,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_activation",
@@ -5975,7 +6221,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -5992,7 +6239,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -6009,7 +6257,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -6026,7 +6275,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -6043,7 +6293,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -6060,7 +6311,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -6077,7 +6329,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -6094,7 +6347,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -6111,7 +6365,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -6128,7 +6383,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -6145,7 +6401,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -6162,7 +6419,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -6179,7 +6437,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -6196,7 +6455,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "implementation",
@@ -6213,7 +6473,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "return_sequences",
@@ -6230,7 +6491,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "return_state",
@@ -6247,7 +6509,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "go_backwards",
@@ -6264,7 +6527,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -6281,7 +6545,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "unroll",
@@ -6298,7 +6563,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "reset_after",
@@ -6315,7 +6581,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -6381,7 +6648,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_activation",
@@ -6398,7 +6666,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -6415,7 +6684,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -6432,7 +6702,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -6449,7 +6720,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -6466,7 +6738,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "unit_forget_bias",
@@ -6483,7 +6756,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -6500,7 +6774,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -6517,7 +6792,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -6534,7 +6810,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -6551,7 +6828,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -6568,7 +6846,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -6585,7 +6864,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -6602,7 +6882,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -6619,7 +6900,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -6636,7 +6918,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "implementation",
@@ -6653,7 +6936,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "return_sequences",
@@ -6670,7 +6954,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "return_state",
@@ -6687,7 +6972,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "go_backwards",
@@ -6704,7 +6990,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -6721,7 +7008,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "unroll",
@@ -6738,7 +7026,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -6820,7 +7109,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -6837,7 +7127,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -6854,7 +7145,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dilation_rate",
@@ -6871,7 +7163,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "activation",
@@ -6888,7 +7181,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_activation",
@@ -6905,7 +7199,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -6922,7 +7217,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -6939,7 +7235,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -6956,7 +7253,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -6973,7 +7271,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "unit_forget_bias",
@@ -6990,7 +7289,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -7007,7 +7307,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -7024,7 +7325,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -7041,7 +7343,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -7058,7 +7361,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -7075,7 +7379,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -7092,7 +7397,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -7109,7 +7415,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "return_sequences",
@@ -7126,7 +7433,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "go_backwards",
@@ -7143,7 +7451,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -7160,7 +7469,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "dropout",
@@ -7177,7 +7487,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -7194,7 +7505,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -7276,7 +7588,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "padding",
@@ -7293,7 +7606,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "data_format",
@@ -7310,7 +7624,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dilation_rate",
@@ -7327,7 +7642,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "activation",
@@ -7344,7 +7660,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_activation",
@@ -7361,7 +7678,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -7378,7 +7696,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -7395,7 +7714,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -7412,7 +7732,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -7429,7 +7750,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "unit_forget_bias",
@@ -7446,7 +7768,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -7463,7 +7786,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -7480,7 +7804,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -7497,7 +7822,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -7514,7 +7840,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -7531,7 +7858,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -7548,7 +7876,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -7565,7 +7894,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -7582,7 +7912,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -7648,7 +7979,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -7665,7 +7997,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -7682,7 +8015,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -7699,7 +8033,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -7716,7 +8051,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -7733,7 +8069,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -7750,7 +8087,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -7767,7 +8105,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -7784,7 +8123,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -7801,7 +8141,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -7818,7 +8159,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -7835,7 +8177,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -7852,7 +8195,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -7918,7 +8262,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_activation",
@@ -7935,7 +8280,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -7952,7 +8298,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -7969,7 +8316,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -7986,7 +8334,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -8003,7 +8352,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -8020,7 +8370,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -8037,7 +8388,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -8054,7 +8406,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -8071,7 +8424,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -8088,7 +8442,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -8105,7 +8460,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -8122,7 +8478,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -8139,7 +8496,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "implementation",
@@ -8156,7 +8514,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "reset_after",
@@ -8173,7 +8532,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -8239,7 +8599,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_activation",
@@ -8256,7 +8617,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "use_bias",
@@ -8273,7 +8635,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_initializer",
@@ -8290,7 +8653,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -8307,7 +8671,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -8324,7 +8689,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "unit_forget_bias",
@@ -8341,7 +8707,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -8358,7 +8725,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -8375,7 +8743,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -8392,7 +8761,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -8409,7 +8779,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -8426,7 +8797,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -8443,7 +8815,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "dropout",
@@ -8460,7 +8833,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "recurrent_dropout",
@@ -8477,7 +8851,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "implementation",
@@ -8494,7 +8869,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -8560,7 +8936,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -8577,7 +8954,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -8594,7 +8972,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -8611,7 +8990,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -8628,7 +9008,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -8645,7 +9026,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -8662,7 +9044,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -8679,7 +9062,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -8696,7 +9080,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -8713,7 +9098,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "return_sequences",
@@ -8730,7 +9116,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "return_state",
@@ -8747,7 +9134,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -8764,7 +9152,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -8830,7 +9219,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "recurrent_initializer",
@@ -8847,7 +9237,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "bias_initializer",
@@ -8864,7 +9255,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "unit_forget_bias",
@@ -8881,7 +9273,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "kernel_regularizer",
@@ -8898,7 +9291,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_regularizer",
@@ -8915,7 +9309,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_regularizer",
@@ -8932,7 +9327,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -8949,7 +9345,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "kernel_constraint",
@@ -8966,7 +9363,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "recurrent_constraint",
@@ -8983,7 +9381,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "bias_constraint",
@@ -9000,7 +9399,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "return_sequences",
@@ -9017,7 +9417,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "return_state",
@@ -9034,7 +9435,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "stateful",
@@ -9051,7 +9453,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -9139,7 +9542,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "embeddings_regularizer",
@@ -9156,7 +9560,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "activity_regularizer",
@@ -9173,7 +9578,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "embeddings_constraint",
@@ -9190,7 +9596,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "mask_zero",
@@ -9207,7 +9614,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "input_length",
@@ -9224,7 +9632,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -9280,7 +9689,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "momentum",
@@ -9297,7 +9707,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "epsilon",
@@ -9314,7 +9725,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "center",
@@ -9331,7 +9743,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "scale",
@@ -9348,7 +9761,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "beta_initializer",
@@ -9365,7 +9779,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "gamma_initializer",
@@ -9382,7 +9797,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "moving_mean_initializer",
@@ -9399,7 +9815,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "moving_variance_initializer",
@@ -9416,7 +9833,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "beta_regularizer",
@@ -9433,7 +9851,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "gamma_regularizer",
@@ -9450,7 +9869,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "beta_constraint",
@@ -9467,7 +9887,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "gamma_constraint",
@@ -9484,7 +9905,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -9654,7 +10076,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "seed",
@@ -9671,7 +10094,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
@@ -9925,7 +10349,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "numeric"
                 },
                 {
                   "name": "",
@@ -9991,7 +10416,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "boolean"
                 },
                 {
                   "name": "",
@@ -10009,6 +10435,55 @@
         {
           "name": "wrappers",
           "nodes": [
+            {
+              "name": "TimeDistributed",
+              "category": "wrappers",
+              "toolbox": "Tensorflow",
+              "code": [
+                {
+                  "language": "Tensorflow",
+                  "argument": {
+                    "name": "TimeDistributed",
+                    "import": "from tensorflow.keras.layers import TimeDistributed"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/wrappers/TimeDistributed",
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "layer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": [
+                    {
+                      "language": "Tensorflow",
+                      "argument": {
+                        "kwarg": false,
+                        "arg": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "Bidirectional",
               "category": "wrappers",
@@ -10063,7 +10538,8 @@
                         "arg": false
                       }
                     }
-                  ]
+                  ],
+                  "type": "string"
                 },
                 {
                   "name": "weights",
@@ -10080,56 +10556,8 @@
                         "arg": false
                       }
                     }
-                  ]
-                },
-                {
-                  "name": "",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "TimeDistributed",
-              "category": "wrappers",
-              "toolbox": "Tensorflow",
-              "code": [
-                {
-                  "language": "Tensorflow",
-                  "argument": {
-                    "name": "TimeDistributed",
-                    "import": "from tensorflow.keras.layers import TimeDistributed"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/wrappers/TimeDistributed",
-              "ports": [
-                {
-                  "name": "",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "layer",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": [
-                    {
-                      "language": "Tensorflow",
-                      "argument": {
-                        "kwarg": false,
-                        "arg": 0
-                      }
-                    }
-                  ]
+                  ],
+                  "type": null
                 },
                 {
                   "name": "",
