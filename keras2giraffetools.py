@@ -12,7 +12,7 @@ from docs.structure import PAGES
 
 keras_dir = pathlib.Path(__file__).resolve().parents[1]
 
-TOOLBOX = 'Tensorflow'
+TOOLBOX = 'Keras'
 
 ### Copied from .docs.autogen
 def clean_module_name(name):
@@ -101,7 +101,6 @@ def get_function_signature(function, name):
           }
          }]
         }
-        print(type(default))
         if type(default) in types:
             port['type'] = types[type(default)]
 
@@ -124,7 +123,7 @@ def get_function_signature(function, name):
       'language': TOOLBOX,
       'argument': {
        'name': name,
-       'import': 'from tensorflow.keras.layers import %s' % name
+       'import': 'from keras.layers import %s' % name
       }
      }],
      'web_url': 'https://keras.io/layers/%s/%s' % (sections[-1], name),
