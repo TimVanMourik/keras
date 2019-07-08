@@ -3,6 +3,8 @@ Created by the GiraffeTools Tensorflow generator.
 Warning, here be dragons.
 
 '''
+
+from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import Activation
 from keras.layers import MaxPooling2D
@@ -123,4 +125,4 @@ def NeuralNet(shape):
     ))
 
     # Returning model
-    return _model
+    return model
